@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+fstar:
+  token-header: Authorization #JWT存储的请求头
+  token-secret: inBPEL@#D4Jvu**4 #JWT加解密使用的密钥
+  token-expiration: 6000 #JWT的超期限时间
+  token-prefix: Bearer  #JWT负载中拿到开头
+  access-key: '' #七牛云存储access-key
+  secret-key: '' #七牛云存储secret-key
+  bucket: '' #七牛云bucket
+  flask-port: 5000 #这个暂时不用管
